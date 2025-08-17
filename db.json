@@ -1,0 +1,177 @@
+{
+  "users2": {
+    "success": false,
+    "message": "Tải danh sách user thành công",
+    "data": [
+      {
+        "id": "1",
+        "username": "anhnnd21",
+        "password": "1234567890",
+        "fullname": "Duy Anh",
+        "email": "admin@taskmanager.com",
+        "role": "admin"
+      },
+      {
+        "id": "2",
+        "username": "anhnnd22",
+        "password": "1234567890",
+        "fullname": "Duy Anh2",
+        "email": "anhnnd4@taskmanager.com",
+        "role": "user"
+      },
+      {
+        "id": "3",
+        "username": "anhnnd23",
+        "password": "1234567890",
+        "fullname": "Duy Anh3",
+        "email": "anhnnd3@taskmanager.com",
+        "role": "user"
+      }
+    ]
+  },
+  "users": [
+    {
+      "id": "1",
+      "username": "anhnnd11",
+      "password": "1234567890",
+      "fullname": "Duy Anh",
+      "email": "admin@taskmanager.com",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "anhnnd12",
+      "password": "1234567890",
+      "fullname": "Duy Anh2",
+      "email": "anhnnd4@taskmanager.com",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "username": "anhnnd13",
+      "password": "1234567890",
+      "fullname": "Duy Anh3",
+      "email": "anhnnd3@taskmanager.com",
+      "role": "user"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Task 1",
+      "description": "Desc 1",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2025-08-20",
+      "createdBy": 1,
+      "createdAt": "2024-08-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Task 2",
+      "description": "Desc 2",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2024-08-15",
+      "createdBy": 2,
+      "createdAt": "2024-08-01T10:00:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Task 3",
+      "description": "Desc 3",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2024-08-15",
+      "createdBy": 3,
+      "createdAt": "2024-08-01T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Học React Hooks",
+      "description": "Hoàn thành bài học về useState và useEffect",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2024-08-15",
+      "createdBy": 1,
+      "createdAt": "2024-08-01T10:00:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Setup JSON Server",
+      "description": "Cài đặt và cấu hình JSON Server cho project",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2024-08-10",
+      "createdBy": 2,
+      "createdAt": "2024-08-01T10:00:00Z"
+    },
+    {
+      "id": 6,
+      "title": "Deploy ứng dụng",
+      "description": "Deploy lên Vercel hoặc Netlify",
+      "status": "completed",
+      "priority": "low",
+      "dueDate": "2024-08-05",
+      "createdBy": 3,
+      "createdAt": "2024-08-01T10:00:00Z"
+    },
+    {
+      "id": 7,
+      "title": "Viết unit tests",
+      "description": "Tạo test cases cho các components",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2024-08-20",
+      "createdBy": 1,
+      "createdAt": "2024-08-01T10:00:00Z"
+    },
+    {
+      "id": 8,
+      "title": "Optimize performance",
+      "description": "Cải thiện hiệu suất ứng dụng",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2024-08-12",
+      "createdBy": 2,
+      "createdAt": "2024-08-01T10:00:00Z"
+    },
+    {
+      "id": "bff6",
+      "title": "wqeqw4213423",
+      "description": "sthgthfghgfh",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2025-08-31",
+      "createdAt": "2025-08-16T10:33:52.082Z",
+      "createdBy": 1
+    },
+    {
+      "id": "8506",
+      "title": "Task 4",
+      "description": "Description 4",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2025-08-29",
+      "createdAt": "2025-08-16T16:14:38.880Z",
+      "createdBy": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Development",
+      "color": "#3498db"
+    },
+    {
+      "id": 2,
+      "name": "Learning",
+      "color": "#e74c3c"
+    },
+    {
+      "id": 3,
+      "name": "Personal",
+      "color": "#27ae60"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+### Nhật ký phát triển Project React
+
+- **Ngày 01:** Tạo project React.
+- **Ngày 02:** Khởi tạo cấu trúc folder component.
+- **Ngày 03:** Tạo `LoadingSpinner.jsx`.
+- **Ngày 04:**
+  - Tạo `ErrorMessage.jsx`.
+  - Gặp lỗi `Retry` và `Dimiss`.
+- **Ngày 05:** Tạo `Navbar.jsx`.
+- **Ngày 06:**
+  - Tạo `TaskItem.jsx`.
+  - Gặp khó khăn trong việc truyền dữ liệu vào component, đã lên mạng để tìm hướng giải quyết.
+- **Ngày 07:**
+  - Tạo `FormLogin.jsx`.
+  - Logic login đa dạng nên không làm kịp.
+- **Ngày 08:** Tạo `TaskItem.jsx`.
+- **Ngày 09:** Tạo `TaskForm.jsx`.
+- **Ngày 10:** Tạo `TaskList.jsx`.
+- **Ngày 11:** Tạo `TaskManagement.jsx`.
+- **Ngày 12:**
+  - Tạo local API.
+  - Cần phải cài đặt thêm `json-server` để chạy.
+- **Ngày 13:** Styling.
+- **Ngày 14:** Kiểm tra tính ổn định của hệ thống.
