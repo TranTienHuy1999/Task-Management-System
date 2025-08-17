@@ -1,0 +1,68 @@
+.math-demo-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.math-results h1 {
+  font-size: 1.25rem;
+  color: #2c3e50;
+  margin-bottom: 0.75rem;
+}
+
+.input-section {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.styled-input {
+  flex: 1;
+  padding: 0.6rem 0.8rem;
+  border: 2px solid #e1e5e9;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.styled-input:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+.styled-btn {
+  padding: 0.6rem 1rem;
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.styled-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.4);
+}
+
+.counter-section {
+  margin-top: 2rem;
+}
+
+.counter-section p {
+  font-size: 1rem;
+  color: #34495e;
+  margin-bottom: 0.5rem;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #e67e22;
+}
